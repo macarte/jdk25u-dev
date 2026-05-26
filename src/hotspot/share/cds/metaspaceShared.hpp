@@ -112,7 +112,7 @@ public:
 
   static bool is_shared_dynamic(void* p) NOT_CDS_RETURN_(false);
   static bool is_shared_static(void* p) NOT_CDS_RETURN_(false);
-jvm
+
   static bool preimage_static_archive_dumped() NOT_CDS_RETURN_(false);
   static jlong get_preimage_static_archive_recording_duration() NOT_CDS_RETURN_(0);
 

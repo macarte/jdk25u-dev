@@ -112,7 +112,7 @@ JNIEXPORT jboolean JNICALL
 Java_sun_management_VMManagementImpl_isAOTRecording
   (JNIEnv *env, jobject dummy)
 {
-    return JVM_AOTIsTraining(env);
+    return JVM_AOTIsRecording(env);
 }
 
 JNIEXPORT jlong JNICALL
